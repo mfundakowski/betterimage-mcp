@@ -1,0 +1,14 @@
+{
+  "name": "betterimage",
+  "version": "1.0.0",
+  "description": "Social cards and OG images from designed templates: card from any page URL, 100 presets, link-preview checks, meta tags, signed og:image URLs.",
+  "author": {
+    "name": "Mateusz Fundakowski",
+    "email": "hello@betterimage.io"
+  },
+  "homepage": "https://betterimage.io/mcp",
+  "repository": "https://github.com/mfundakowski/betterimage-mcp",
+  "license": "MIT",
+  "keywords": ["og-image", "social-card", "open-graph", "link-preview", "meta-tags", "mcp"],
+  "logo": "assets/logo.png"
+}
