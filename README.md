@@ -49,6 +49,16 @@ claude mcp add --scope user --transport http betterimage https://betterimage.io/
 }
 ```
 
+**Gemini CLI**: `gemini extensions install https://github.com/mfundakowski/betterimage-mcp`, or add to `settings.json`:
+
+```json
+{
+  "mcpServers": {
+    "betterimage": { "httpUrl": "https://betterimage.io/mcp" }
+  }
+}
+```
+
 **ChatGPT** (Plus/Pro, Developer mode): Settings > Apps & Connectors > Create, URL `https://betterimage.io/mcp`, no authentication.
 
 **Any other client**: point it at `https://betterimage.io/mcp` over Streamable HTTP.

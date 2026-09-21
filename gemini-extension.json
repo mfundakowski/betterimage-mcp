@@ -1,0 +1,10 @@
+{
+  "name": "betterimage",
+  "version": "1.0.0",
+  "description": "Social cards and OG images from designed templates: card from any page URL, 100 presets, link-preview checks, meta tags, signed og:image URLs.",
+  "mcpServers": {
+    "betterimage": {
+      "httpUrl": "https://betterimage.io/mcp"
+    }
+  }
+}
