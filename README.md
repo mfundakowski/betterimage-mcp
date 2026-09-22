@@ -91,6 +91,10 @@ Every tool carries a title and `readOnlyHint`/`destructiveHint` annotations; the
 
 `.cursor-plugin/plugin.json` and `mcp.json` make this repository installable as a Cursor plugin; the plugin only registers the hosted server.
 
+## In JavaScript
+
+For code rather than an assistant, [`@betterimage/cards`](https://www.npmjs.com/package/@betterimage/cards) builds the same signed image URLs from Node, Bun, Deno or an edge runtime, with no dependencies.
+
 ## Links
 
 - Documentation: https://betterimage.io/mcp
