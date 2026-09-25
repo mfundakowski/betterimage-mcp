@@ -3,7 +3,7 @@
   "name": "io.betterimage/betterimage",
   "title": "betterimage.io",
   "description": "Social cards and OG images from designed templates: card from a URL, presets, meta tags, link checks",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "websiteUrl": "https://betterimage.io/mcp",
   "icons": [
     {
@@ -19,5 +19,9 @@
       "type": "streamable-http",
       "url": "https://betterimage.io/mcp"
     }
-  ]
+  ],
+  "repository": {
+    "url": "https://github.com/mfundakowski/betterimage-mcp",
+    "source": "github"
+  }
 }

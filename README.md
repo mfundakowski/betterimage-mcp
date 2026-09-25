@@ -80,6 +80,14 @@ With an account (OAuth or API key):
 - `og_image_url`: a signed og:image URL rendered on first fetch and cached at the edge, so every page gets its own card with no hosting.
 - `get_usage`: plan, watermark status and monthly quota.
 
+Every render tool's `fields` object also takes the card's pictures by URL -
+`image_url`, `image2_url`, `logo_url` and `background_url` - fetched
+server-side and drawn in the slot the design already lays out. That is what
+turns one saved template into a whole catalogue: one card per product, same
+colours, fonts and crop framing. PNG, JPEG or WebP up to 5 MB, decided by the
+bytes rather than the URL; the fetch is SSRF-hardened and a URL pointing back
+at betterimage.io is refused.
+
 Every tool carries a title and `readOnlyHint`/`destructiveHint` annotations; the two write tools are `save_template` and `render_card`.
 
 ## Registries
